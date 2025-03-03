@@ -1,11 +1,11 @@
-# storagechecker
+#SstorageChecker
 This powershell script quickly finds which directories are taking up the most space on a Windows system.
 
-StorageCheck: Automated Storage Usage Scanner
+StorageChecker: Automated Storage Usage Scanner
 
-Overview
+## Overview
 
-StorageCheck is a PowerShell script that scans all available drives on a system and identifies the directories consuming the most storage. It provides a quick and efficient way to analyze disk usage and detect large folders that may need cleanup.
+StorageChecker is a PowerShell script that scans all available drives on a system and identifies the directories consuming the most storage. It provides a quick and efficient way to analyze disk usage and detect large folders that may need cleanup.
 
 Features
 
@@ -19,34 +19,34 @@ Features
 
 - Error Handling: Skips inaccessible directories and provides warnings for potential issues.
 
-Requirements
+## Requirements
 
 - Windows PowerShell (Recommended: PowerShell 5.1 or later)
 
 - Administrator privileges may be required for full access to system files.
 
-- Usage
 
-- Running the Script
+## Running the Script
 
-- Open PowerShell as Administrator.
+1. Open PowerShell as Administrator.
 
-Navigate to the directory where storagecheck.ps1 is located.
+2. Navigate to the directory where storagecheck.ps1 is located.
 
-Run the script using:
+3. Run the script using:
 
-.\storagecheck.ps1
+```.\storagecheck.ps1 ```
 
-The script will analyze storage usage and display the top 10 largest directories.
+4. The script will analyze storage usage and display the top 10 largest directories.
 
-Customization
+## Customization
 
 To modify the scanning depth, update the $Depth variable in the script.
 
 To change the number of top results displayed, adjust the $Top variable.
 
-Example Output
+## Example Output
 
+```
 Directory              SizeGB
 ---------              ------
 D:\VMs                  25.85
@@ -59,15 +59,15 @@ D:\VideoJuegos           0.51
 C:\vkd                   0.12
 C:\x64                   0.12
 C:\OVFTool               0.09
-
-License
+```
+## License
 
 This script is provided as-is. Feel free to modify and distribute as needed.
 
-Contributions
+## Contributions
 
 If you have improvements or find any issues, feel free to suggest updates!
 
-Author
+## Author
 
-Bob Theisen
+Bob Theisen aka "LTNBOB"
