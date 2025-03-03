@@ -1,7 +1,5 @@
-# StorageChecker
+# StorageChecker: Automated Storage Usage Scanner
 This powershell script quickly finds which directories are taking up the most space on a Windows system.
-
-StorageChecker: Automated Storage Usage Scanner
 
 ## Overview
 
